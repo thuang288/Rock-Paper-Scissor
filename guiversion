@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div id="parent">
+        <div id="rocks">
+            <img src="images/rock.png" alt="Rock">
+            <button type="button" id="rock">Rock</button>
+        </div>
+        <div id='papers'>
+            <img src="images/paper.jpg" alt="Paper">
+            <button type="button" id="paper">Paper</button>
+        </div>
+        <div id='scissors'>
+            <img src="images/scissor.png" alt="Scissor">
+            <button type="button" id="scissor">Scissor</button>
+        </div>
+    </div>
+    <div id="score">
+        <p id="roundResult"></p>
+        <div id="total">
+            <p id="playerTotal"></p>
+            <p id="computerTotal"></p>
+            <p id="fResult"></p>
+        </div>
+    </div>
+
+
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
